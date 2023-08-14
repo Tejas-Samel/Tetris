@@ -1,21 +1,52 @@
-# Tetris
-Tetris game made with the Pygame library in Python.
+# Tetris Game with Pygame
+
+Dive into the classic world of Tetris with a modern twist! This Tetris game is built using the Pygame library and features sound effects along with a highscore tracker stored in the `highscore.txt` file.
+
+## Features
+
+- **Classic Gameplay:** Experience the timeless fun of Tetris with intuitive controls.
+- **Sound Effects:** Enjoy the game with interactive sound effects that enhance the gaming experience.
+- **Highscore Tracking:** Compete against yourself by aiming for a highscore. The highest score is stored in the `highscore.txt` file.
+
+## Screenshots
+
+![Tetris Start](main_screen.jpg)
+![Tetris Gameplay](gameplay.jpg)
+
+## Getting Started
+
+1. **Prerequisites:**
+
+   Make sure you have Python installed on your system. You'll also need to install the Pygame library. You can install Pygame using the following command:
+
+   ```bash
+   pip install pygame
+   ```
+
+2. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/Tejas-Samel/Tetris.git
+   ```
+
+3. **Run the Game:**
+
+   Navigate to the project directory and run the `Tetris.py` script:
+
+   ```bash
+   cd Tetris
+   python Tetris.py
+   ```
+
+4. **Controls:**
+
+   - **Arrow Keys:** Move the tetromino left, right, or down.
+   - **Up Arrow:** Rotate the tetromino.
+   - **Spacebar:** Instantly drop the tetromino to the bottom.
+
+## Highscore Tracking
+
+The highscore is stored in the `highscore.txt` file. Each time you beat the previous highscore, it will be updated in the file.
 
 
-Installing
-Download the Python 3 installer package from the official website and install it, if not installed previously.
-
-Run the following in the terminal to install the Pygame library
-
-pip3 install pygame
-Another alternative would be to import the contents of the repository in a PyCharm project. The Pygame library can be installed in a virtual environment of PyCharm using the steps mentioned here.
-
-Running the application
-Download the source code from the repository and run the file just as any other Python script (.py) file.
-
-python3 Tetris.py
-If the project is imported in PyCharm, then the file can be run directly by setting the appropriate configurations.
-
-**Note**![gameplay](https://user-images.githubusercontent.com/67693238/122053589-81ee4800-ce04-11eb-80b3-a720f7500b42.jpg)
-![main_screen](https://user-images.githubusercontent.com/67693238/122053594-831f7500-ce04-11eb-883d-2acb18274cd0.jpg)
-: The filepath and fontpath for the text files and fonts need to be updated according to the location of the project on the user's machine.
+---
